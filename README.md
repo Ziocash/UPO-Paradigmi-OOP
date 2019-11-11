@@ -1,6 +1,6 @@
 # Programming Paradigms UniUPO Course
 
-Implementations about UniUPO OOP Paradigms Course
+Implementations about UniUPO OOP Paradigms Course.
 Teacher: Luca Piovesan
 
 ### Language: Java

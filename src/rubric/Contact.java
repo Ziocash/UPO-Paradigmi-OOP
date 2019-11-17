@@ -6,6 +6,18 @@ public class Contact implements Comparable<Contact>
 	private String surname;
 	private String number;
 	
+	public Contact()
+	{
+		
+	}
+	
+	public Contact(String name, String surname, String number)
+	{
+		this.name = name;
+		this.surname = surname;
+		this.number = number;
+	}
+	
 	public String getName()
 	{
 		return name;
@@ -36,6 +48,12 @@ public class Contact implements Comparable<Contact>
 		this.number = number;
 	}
 
+	@Override
+	public String toString()
+	{
+		return "Name: " + name + " Surname: " + surname + " Number: " + number;
+	}
+	
 	@Override
 	public int compareTo(Contact contact)
 	{

@@ -5,27 +5,14 @@ public class Main
 	public static void main(String[] args) 
 	{
 		Rubric rubric = new SortedRubric();
-		Contact contact = new Contact();
-		contact.setName("Mario");
-		contact.setSurname("Rossi");
-		contact.setNumber("0321666256");
+		Contact contact = new Contact("Mario", "Rossi", "0321666256");
 		rubric.add(contact);
-		contact = new Contact();
-		contact.setName("Mario");
-		contact.setSurname("Bianchi");
-		contact.setNumber("0321622569");
+		contact = new Contact("Mario", "Bianchi", "0321622569");
 		rubric.add(contact);
-		contact = new Contact();
-		contact.setName("Riccardo");
-		contact.setSurname("LayRoy");
-		contact.setNumber("0518060");
+		contact = new Contact("Riccardo", "LayRoy", "0518060");
 		rubric.add(contact);
-		contact = new Contact();	
-		contact.setName("Riccardo");	
-		contact.setSurname("Cecci");
-		contact.setNumber("0321457889");
+		contact = new Contact("Riccardo", "Cecci", "0321457889");
 		rubric.add(contact);
-		
 		
 		System.out.println(rubric.print());
 	}
